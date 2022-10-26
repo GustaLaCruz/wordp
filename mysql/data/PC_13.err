@@ -1,0 +1,334 @@
+2022-10-26T11:13:55.346716Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-10-26T11:13:55.347108Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-10-26T11:13:55.347505Z 0 [Note] C:\Users\Aluno\Desktop\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 8344 ...
+2022-10-26T11:13:55.353356Z 0 [ERROR] Error message file 'C:\Users\Aluno\Desktop\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-10-26T11:13:55.370552Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-26T11:13:55.371089Z 0 [Note] InnoDB: Uses event mutexes
+2022-10-26T11:13:55.371386Z 0 [Note] InnoDB: Memory barrier is not used
+2022-10-26T11:13:55.371710Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-26T11:13:55.372367Z 0 [Note] InnoDB: Number of pools: 1
+2022-10-26T11:13:55.372781Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-10-26T11:13:55.375140Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-10-26T11:13:55.380660Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-26T11:13:55.397287Z 0 [Note] InnoDB: The first innodb_system data file 'ibdata1' did not exist. A new tablespace will be created!
+2022-10-26T11:13:55.398652Z 0 [Note] InnoDB: Setting file 'C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ibdata1' size to 10 MB. Physically writing the file full; Please wait ...
+2022-10-26T11:13:55.407566Z 0 [Note] InnoDB: File 'C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ibdata1' size is now 10 MB.
+2022-10-26T11:13:55.411669Z 0 [Note] InnoDB: Setting log file C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ib_logfile101 size to 5 MB
+2022-10-26T11:13:55.420820Z 0 [Note] InnoDB: Setting log file C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ib_logfile1 size to 5 MB
+2022-10-26T11:13:55.439087Z 0 [Note] InnoDB: Renaming log file C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ib_logfile101 to C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ib_logfile0
+2022-10-26T11:13:55.443677Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2022-10-26T11:13:55.444372Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-26T11:13:55.445285Z 0 [Note] InnoDB: Setting file 'C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-26T11:13:55.452999Z 0 [Note] InnoDB: File 'C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-26T11:13:55.459004Z 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2022-10-26T11:13:55.469910Z 0 [Note] InnoDB: Doublewrite buffer created
+2022-10-26T11:13:55.502987Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-10-26T11:13:55.503627Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-10-26T11:13:55.504354Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2022-10-26T11:13:55.508824Z 0 [Note] InnoDB: Foreign key constraint system tables created
+2022-10-26T11:13:55.509357Z 0 [Note] InnoDB: Creating tablespace and datafile system tables.
+2022-10-26T11:13:55.510961Z 0 [Note] InnoDB: Tablespace and datafile system tables created.
+2022-10-26T11:13:55.511476Z 0 [Note] InnoDB: Creating sys_virtual system tables.
+2022-10-26T11:13:55.513079Z 0 [Note] InnoDB: sys_virtual table created
+2022-10-26T11:13:55.513673Z 0 [Note] InnoDB: Waiting for purge to start
+2022-10-26T11:13:55.569253Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 0
+2022-10-26T11:13:55.570491Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-10-26T11:13:55.582261Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2022-10-26T11:13:55.587763Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-10-26T11:13:55.589928Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-10-26T11:13:55.590563Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-10-26T11:13:55.591097Z 0 [Warning] 
+2022-10-26T11:13:55.591314Z 0 [Warning] 
+2022-10-26T11:13:55.605531Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-10-26T11:13:55.606330Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-10-26T11:13:55.615324Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-10-26T11:13:55.616236Z 0 [Note] IPv6 is available.
+2022-10-26T11:13:55.616593Z 0 [Note]   - '::' resolves to '::';
+2022-10-26T11:13:55.616939Z 0 [Note] Server socket created on IP: '::'.
+2022-10-26T11:13:55.617289Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2022-10-26T11:13:55.617736Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2022-10-26T11:13:55.618181Z 0 [ERROR] Aborting
+
+2022-10-26T11:13:55.618437Z 0 [Note] Binlog end
+2022-10-26T11:13:55.618728Z 0 [Note] Shutting down plugin 'ngram'
+2022-10-26T11:13:55.619038Z 0 [Note] Shutting down plugin 'partition'
+2022-10-26T11:13:55.619356Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-10-26T11:13:55.619679Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-10-26T11:13:55.619989Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-10-26T11:13:55.620374Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-10-26T11:13:55.620706Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-10-26T11:13:55.621031Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-10-26T11:13:55.621390Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-10-26T11:13:55.621748Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-10-26T11:13:55.622111Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-10-26T11:13:55.622478Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-10-26T11:13:55.622828Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-10-26T11:13:55.623174Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-10-26T11:13:55.623528Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-10-26T11:13:55.623877Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-10-26T11:13:55.624236Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-10-26T11:13:55.624584Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-10-26T11:13:55.624945Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-10-26T11:13:55.625305Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-10-26T11:13:55.625651Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-10-26T11:13:55.626020Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-10-26T11:13:55.626367Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-10-26T11:13:55.626745Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-10-26T11:13:55.627079Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-10-26T11:13:55.627446Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-10-26T11:13:55.627818Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-10-26T11:13:55.628181Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-10-26T11:13:55.628530Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-10-26T11:13:55.628907Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-10-26T11:13:55.629264Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-10-26T11:13:55.629616Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-10-26T11:13:55.629947Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-10-26T11:13:55.630289Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-10-26T11:13:55.630609Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-10-26T11:13:55.630955Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-10-26T11:13:55.631343Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-10-26T11:13:55.631684Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-10-26T11:13:55.632050Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-26T11:13:55.632614Z 0 [Note] InnoDB: Starting shutdown...
+2022-10-26T11:13:55.741692Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ib_buffer_pool
+2022-10-26T11:13:55.745070Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 221026  8:13:55
+2022-10-26T11:13:56.954390Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1209968
+2022-10-26T11:13:56.955250Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-26T11:13:56.955708Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-10-26T11:13:56.956054Z 0 [Note] Shutting down plugin 'CSV'
+2022-10-26T11:13:56.956377Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-10-26T11:13:56.956742Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-10-26T11:13:56.957230Z 0 [Note] Shutting down plugin 'binlog'
+2022-10-26T11:13:56.957715Z 0 [Note] 
+2022-10-26T11:16:00.370636Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-10-26T11:16:00.370700Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-10-26T11:16:00.371002Z 0 [Note] C:\Users\Aluno\Desktop\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 6284 ...
+2022-10-26T11:16:00.371560Z 0 [ERROR] Error message file 'C:\Users\Aluno\Desktop\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-10-26T11:16:00.386254Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-26T11:16:00.386780Z 0 [Note] InnoDB: Uses event mutexes
+2022-10-26T11:16:00.387080Z 0 [Note] InnoDB: Memory barrier is not used
+2022-10-26T11:16:00.387407Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-26T11:16:00.387969Z 0 [Note] InnoDB: Number of pools: 1
+2022-10-26T11:16:00.388340Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-10-26T11:16:00.390364Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-10-26T11:16:00.395566Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-26T11:16:00.422542Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-10-26T11:16:00.438788Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-26T11:16:00.439662Z 0 [Note] InnoDB: Setting file 'C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-26T11:16:00.448619Z 0 [Note] InnoDB: File 'C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-26T11:16:00.455357Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-10-26T11:16:00.456132Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-10-26T11:16:00.456860Z 0 [Note] InnoDB: Waiting for purge to start
+2022-10-26T11:16:00.507828Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1209968
+2022-10-26T11:16:00.508990Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-10-26T11:16:00.509037Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Aluno\Desktop\usbwebserver\mysql\data\ib_buffer_pool
+2022-10-26T11:16:00.510904Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2022-10-26T11:16:00.510904Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221026  8:16:00
+2022-10-26T11:16:00.512097Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-10-26T11:16:00.513900Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-10-26T11:16:00.514661Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-10-26T11:16:00.515239Z 0 [Warning] 
+2022-10-26T11:16:00.515467Z 0 [Warning] 
+2022-10-26T11:16:00.516846Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-10-26T11:16:00.517416Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-10-26T11:16:00.518122Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-10-26T11:16:00.518727Z 0 [Note] IPv6 is available.
+2022-10-26T11:16:00.519036Z 0 [Note]   - '::' resolves to '::';
+2022-10-26T11:16:00.519407Z 0 [Note] Server socket created on IP: '::'.
+2022-10-26T11:16:00.520431Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-10-26T11:16:00.609801Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2022-10-26T11:16:00.610375Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2022-10-26T11:16:00.610997Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2022-10-26T11:16:00.611490Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2022-10-26T11:16:00.611966Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2022-10-26T11:16:00.648059Z 0 [Warning] System table 'servers' is expected to be transactional.
+2022-10-26T11:16:00.662393Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-26T11:16:00.668800Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-26T11:16:00.670369Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-26T11:16:00.671505Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-10-26T11:16:00.680276Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-26T11:16:00.681986Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-26T11:16:00.683142Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-10-26T11:16:00.683743Z 0 [Note] Failed to start slave threads for channel ''
+2022-10-26T11:16:00.696616Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-10-26T11:16:00.704938Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-10-26T11:16:00.713073Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-10-26T11:16:00.740560Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:00.748045Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:00.812401Z 0 [ERROR] 
+2022-10-26T11:16:00.829226Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2022-10-26T11:16:00.854967Z 0 [ERROR] 
+2022-10-26T11:16:00.861117Z 0 [ERROR] 
+2022-10-26T11:16:00.868135Z 0 [ERROR] 
+2022-10-26T11:16:00.875195Z 0 [ERROR] 
+2022-10-26T11:16:00.882139Z 0 [ERROR] 
+2022-10-26T11:16:00.895754Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:00.903076Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:00.923444Z 0 [ERROR] 
+2022-10-26T11:16:00.930052Z 0 [ERROR] 
+2022-10-26T11:16:00.936751Z 0 [ERROR] 
+2022-10-26T11:16:00.950434Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:00.957824Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:00.978846Z 0 [ERROR] 
+2022-10-26T11:16:00.979323Z 0 [ERROR] 
+2022-10-26T11:16:00.979629Z 0 [ERROR] 
+2022-10-26T11:16:00.979937Z 0 [ERROR] 
+2022-10-26T11:16:00.980250Z 0 [ERROR] 
+2022-10-26T11:16:00.980555Z 0 [ERROR] 
+2022-10-26T11:16:00.980857Z 0 [ERROR] 
+2022-10-26T11:16:00.981164Z 0 [ERROR] 
+2022-10-26T11:16:00.981471Z 0 [ERROR] 
+2022-10-26T11:16:00.986503Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:00.992022Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-10-26T11:16:01.030806Z 0 [ERROR] 
+2022-10-26T11:16:01.031290Z 0 [ERROR] 
+2022-10-26T11:16:01.031598Z 0 [ERROR] 
+2022-10-26T11:16:01.031903Z 0 [ERROR] 
+2022-10-26T11:16:01.032231Z 0 [ERROR] 
+2022-10-26T11:16:01.032539Z 0 [ERROR] 
+2022-10-26T11:16:01.032842Z 0 [ERROR] 
+2022-10-26T11:16:01.033154Z 0 [ERROR] 
+2022-10-26T11:16:01.033454Z 0 [ERROR] 
+2022-10-26T11:16:01.033754Z 0 [ERROR] 
+2022-10-26T11:16:01.034063Z 0 [ERROR] 
+2022-10-26T11:16:01.034360Z 0 [ERROR] 
+2022-10-26T11:16:01.034669Z 0 [ERROR] 
+2022-10-26T11:16:01.034971Z 0 [ERROR] 
+2022-10-26T11:16:01.035273Z 0 [ERROR] 
+2022-10-26T11:16:01.035578Z 0 [ERROR] 
+2022-10-26T11:16:01.035880Z 0 [ERROR] 
+2022-10-26T11:16:01.036180Z 0 [ERROR] 
+2022-10-26T11:16:01.036477Z 0 [ERROR] 
+2022-10-26T11:16:01.036775Z 0 [ERROR] 
+2022-10-26T11:16:01.037080Z 0 [ERROR] 
+2022-10-26T11:16:01.037393Z 0 [ERROR] 
+2022-10-26T11:16:01.037695Z 0 [ERROR] 
+2022-10-26T11:16:01.037995Z 0 [ERROR] 
+2022-10-26T11:16:01.038295Z 0 [ERROR] 
+2022-10-26T11:16:01.038598Z 0 [ERROR] 
+2022-10-26T11:16:01.038965Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2022-10-26T11:16:01.039630Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2022-10-26T11:16:01.048958Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2022-10-26T11:16:01.049838Z 0 [Note] 
+2022-10-26T11:17:39.586635Z 2 [ERROR] Error message file 'C:\Users\Aluno\Desktop\usbwebserver\mysql\share\portuguese\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-10-26T11:20:41.165500Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.191426Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.217345Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.243634Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.269837Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.291537Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.316315Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.352108Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.374884Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.400563Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.427337Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.456381Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.464990Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.465656Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_options` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.691599Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.692151Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.713857Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.714377Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_usermeta` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.755997Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.756538Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_terms` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.760638Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.761154Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_term_taxonomy` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.765634Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.766137Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.770464Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.770965Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_term_relationships` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.775071Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.775578Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_comments` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:41.781803Z 31 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:41.782305Z 31 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:20:51.801138Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:20:51.802115Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:21:01.808957Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:21:01.809813Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_usermeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:21:11.812554Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:21:11.813496Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:21:18.204063Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:21:18.204612Z 36 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_commentmeta` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:21:21.825565Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:21:21.826525Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:22:15.756441Z 44 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:22:15.757075Z 44 [ERROR] InnoDB: Fetch of persistent statistics requested for table `bd_misseis`.`wp_termmeta` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-26T11:22:20.187748Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:22:20.188423Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:22:20.200251Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:22:20.200782Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_terms` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:22:20.204054Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:22:20.204473Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_term_taxonomy` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:22:30.212482Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:22:30.213382Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_term_relationships` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:24:02.748213Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:24:02.748936Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:24:19.755643Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:24:19.756175Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:26:19.832067Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:26:19.832640Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:27:21.455423Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:27:21.456112Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:27:21.462050Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:27:21.462724Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:27:24.725144Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:27:24.725845Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:27:35.057185Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:27:35.057993Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:27:50.279603Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:27:50.280273Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:28:06.317332Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:28:06.317856Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:28:21.785036Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:28:21.785565Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:28:21.791368Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:28:21.791887Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:28:25.621589Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:28:25.622118Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:28:35.782612Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:28:35.783564Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:32:14.274520Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:32:14.275099Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:33:26.171085Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:33:26.171683Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:33:26.186179Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:33:26.186768Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_term_relationships` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:33:26.197405Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:33:26.197962Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:37:31.097296Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:37:31.098003Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:37:31.107397Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:37:31.108043Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_term_relationships` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:37:31.158589Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:37:31.159263Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_terms` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:37:31.162251Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:37:31.162780Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_term_taxonomy` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:37:41.169993Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:37:41.170907Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:37:51.183905Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:37:51.184795Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_term_relationships` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:38:32.729279Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:38:32.730016Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_usermeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:48:32.313881Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:48:32.314464Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:49:26.749917Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:49:26.750649Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:49:30.165835Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:49:30.166521Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:52:24.260695Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:52:24.261427Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:52:24.266061Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:52:24.266587Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:57:04.845909Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:57:04.846495Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_postmeta` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T11:57:14.856268Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T11:57:14.856796Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_posts` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-26T12:00:04.474540Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-26T12:00:04.475302Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `bd_misseis`.`wp_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
